@@ -1,17 +1,21 @@
 #include<stdio.h>
 int main()
 {
-int a=12;
-int b=17;
-int sum=a+b;
-int product=a*b;
-int diff=a-b;
-int quotient=a%b;
-printf("value of sum=%d",sum);
-printf("value of product=%d",product);
-printf("value of diff=%d",diff);
-printf("value of quotient=%d",quotient);
-printf("value of %d and %d" ,a ,b);
+printf("Hey user!, type one of the numbers u want arithmatic operations on, and press [enter] \n");
+int x;
+scanf("%d",&x);
+printf("type the other number you want to add and press [enter] \n");
+int y;
+scanf("%d",&y);
+int sum = x+y;
+printf("\n the sum: %d",sum);
+int difference = x-y;
+printf("\n the difference: %d",difference);
+int product = x*y;
+printf("\n the product: %d",product);
+int quotient = x/y;
+printf("\n the quotient: %d",quotient);
+int remainder = x%y;
+printf("\n the remainder: %d",remainder);
 return 0;
 }
-

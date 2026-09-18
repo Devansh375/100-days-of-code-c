@@ -1,11 +1,12 @@
 #include<stdio.h>
 int main()
 {
-int a=12;
-int b=17;
+int a,b;
+printf("enter two numbmers");
+scanf("%d %d",&a,&b);
+
 int sum=a+b;
-printf("value of sum=%d",sum);
-printf("value of %d and %d" ,a ,b);
+printf("sum of numbers =%d",sum);
 return 0;
 }
 
